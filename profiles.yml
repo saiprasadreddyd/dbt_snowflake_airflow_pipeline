@@ -1,0 +1,13 @@
+data_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: vq19475.us-east-2.aws
+      user: SAIPRASADDONAKANTI26
+      password: "i7UMYFsL5uvrBiV"   # ← fix it here
+      role: dbt_role
+      warehouse: dbt_wh
+      database: dbt_db
+      schema: dbt_schema
+      threads: 10
