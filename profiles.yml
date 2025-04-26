@@ -5,7 +5,7 @@ data_pipeline:
       type: snowflake
       account: vq19475.us-east-2.aws
       user: SAIPRASADDONAKANTI26
-      password: "i7UMYFsL5uvrBiV"   # ← fix it here
+      password: "Enter your password"   # ← fix it here
       role: dbt_role
       warehouse: dbt_wh
       database: dbt_db
